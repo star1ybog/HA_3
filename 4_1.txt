@@ -1,0 +1,13 @@
+Input: Integer N (size of the grid)
+Output: An N x N grid filled with '*' and '=' symbols
+
+1.Create an empty N x N grid
+2.For each row i from 0 to N-1:
+    3. For each column j from 0 to N-1:
+          4.If (i == j) 
+            - Set grid[i][j] to '*'
+        5.Else if (i + j) is even:
+            - Set grid[i][j] to '='
+        6.Else:
+            - Set grid[i][j] to '*'
+7.Display the grid
